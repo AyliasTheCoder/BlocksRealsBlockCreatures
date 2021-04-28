@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[34,)"
+license="All rights reserved"
+issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]] #mandatory
+modId="br_block_creatures" #mandatory
+version="1.0.0" #mandatory
+displayName="Mod Name" #mandatory
+author="Aylias"
+description='''
+Adding @BlockReal's Block Creatures into Minecraft!
+'''
+[[dependencies.br_block_creatures]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[34,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.br_block_creatures]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3]"
+    ordering="NONE"
+    side="BOTH"
